@@ -7,19 +7,19 @@ class UsersController < ApplicationController
   def create
     @user =  User.new(user_params)
     if @user.save
-      render @user #you can just render a user instance?
+      render :show #you can just render a user instance? No
     else
       render :new
     end
   end
 
   def show
-    @user = User.find_by(params[:id])
-    render @user
+    @user = User.find_by(email: params[:email]) #User.find_by(id: params[:id])
+    render :show# user_url #@user
   end
 
   private
   def user_params
-    params.require(:users).permit(:email, :password)
+    params.require(:user).permit(:email, :password)
   end
 end

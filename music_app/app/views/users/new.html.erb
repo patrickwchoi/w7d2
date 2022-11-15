@@ -1,8 +1,9 @@
 <h2>Create A User</h2>
 
-<form action= <%= "users_url"%> > 
+<form action= "<%=users_url%>" method="POST" > 
   <input type="text" name="user[email]"> 
   <%# where does this user[username] come from? %>
-  <input type="text" name="user[password]"> 
+  <%# ANS: it GOES to our params in user.rb. if we have strong params it goes there %>
+  <input type="password" name="user[password]"> 
   <button> Submit </button>
 </form>

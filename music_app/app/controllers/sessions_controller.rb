@@ -5,8 +5,8 @@ class SessionsController < ApplicationController
   end
 
   def create
-  incoming_email = params[:users][:email]
-  incoming_password = params[:users][:password]  #where do we set a variable equal to password? our form in views?
+  incoming_email = params[:user][:email]
+  incoming_password = params[:user][:password]  #where do we set a variable equal to password? our form in views?
   @user = User.find_by_credentials(incoming_email, incoming_password)
   if @user
     session[:session_token] = @user.session_token

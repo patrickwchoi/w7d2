@@ -7,7 +7,8 @@ class UsersController < ApplicationController
   def create
     @user =  User.new(user_params)
     if @user.save
-      render :show #you can just render a user instance? No
+      login(@user)
+      render :show 
     else
       render :new
     end

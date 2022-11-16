@@ -1,4 +1,7 @@
 class ApplicationController < ActionController::Base
+  skip_before_action :verify_authenticity_token
+  helper_method :current_user, :logged_in? #whats this for? A: it lets other files access them
+
   def current_user
     user ||= User.find_by(session_token: session[:session_token]) #why ||= instead of =?
     user

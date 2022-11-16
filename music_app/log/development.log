@@ -430,3 +430,375 @@ Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 70
 ActionController::InvalidAuthenticityToken - Can't verify CSRF token authenticity.:
 
 Started POST "/__better_errors/14a6e0bd555b31fc/variables" for ::1 at 2022-11-15 15:19:37 -0800
+Started GET "/users/new" for ::1 at 2022-11-15 15:27:16 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1782)
+Completed 200 OK in 34ms (Views: 10.4ms | ActiveRecord: 8.2ms | Allocations: 7925)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:27:44 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 238)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 1766)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 2524)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:28:36 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 1754)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 2513)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:29:17 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 1772)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 2531)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:29:40 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 1757)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:30:30 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 2584)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 2827)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:30:44 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 1769)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 2503)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:30:59 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 2578)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:40:34 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 3170)
+Completed 200 OK in 37ms (Views: 34.7ms | Allocations: 3894)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 15:48:52 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 6065)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 7.2ms | Allocations: 12112)
+
+
+
+NoMethodError - undefined method `logged_in?' for #<ActionView::Base:0x00000000010f40>
+'.freeze;    if logged_in? 
+                ^^^^^^^^^^
+Did you mean?  logger?:
+  app/views/layouts/application.html.erb:16
+  app/controllers/users_controller.rb:4:in `new'
+
+Started POST "/__better_errors/dfdbcacf0da875c9/variables" for ::1 at 2022-11-15 15:48:52 -0800
+Started POST "/__better_errors/14a6e0bd555b31fc/variables" for ::1 at 2022-11-15 15:48:56 -0800
+Started POST "/__better_errors/dfdbcacf0da875c9/variables" for ::1 at 2022-11-15 15:48:57 -0800
+Started GET "/users/new" for ::1 at 2022-11-15 15:49:25 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 75)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2465)
+Completed 200 OK in 28ms (Views: 11.4ms | ActiveRecord: 9.7ms | Allocations: 5862)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 16:04:32 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2446)
+Completed 200 OK in 33ms (Views: 11.6ms | ActiveRecord: 6.5ms | Allocations: 8287)
+
+
+Started POST "/users" for ::1 at 2022-11-15 16:04:40 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"walterwhite@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:22:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "walterwhite@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:30:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:30:in `reset_session_token'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 1.4ms | Allocations: 10223)
+
+
+
+NoMethodError - undefined method `password' for #<User id: nil, email: "walterwhite@gmail.com", password_digest: [FILTERED], session_token: [FILTERED], created_at: nil, updated_at: nil>
+Did you mean?  password=:
+  app/models/user.rb:30:in `reset_session_token'
+  app/models/user.rb:35:in `ensure_session_token'
+  app/controllers/users_controller.rb:9:in `create'
+
+Started POST "/__better_errors/9f83ffece595ee1d/variables" for ::1 at 2022-11-15 16:04:40 -0800
+Started POST "/__better_errors/9f83ffece595ee1d/variables" for ::1 at 2022-11-15 16:06:22 -0800
+Started POST "/__better_errors/9f83ffece595ee1d/variables" for ::1 at 2022-11-15 16:06:38 -0800
+Started GET "/users/new" for ::1 at 2022-11-15 16:10:30 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 249)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2873)
+Completed 200 OK in 27ms (Views: 10.3ms | ActiveRecord: 5.5ms | Allocations: 8990)
+
+
+Started POST "/users" for ::1 at 2022-11-15 16:10:34 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"walterwhite@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "walterwhite@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Create (4.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "walterwhite@gmail.com"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2022-11-16 00:10:34.605562"], ["updated_at", "2022-11-16 00:10:34.605562"]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "walterwhite@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1880)
+Completed 200 OK in 200ms (Views: 3.8ms | ActiveRecord: 8.4ms | Allocations: 9438)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 16:17:55 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2452)
+Completed 200 OK in 36ms (Views: 11.1ms | ActiveRecord: 9.3ms | Allocations: 8256)
+
+
+Started POST "/users" for ::1 at 2022-11-15 16:18:04 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"jesse@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jesse@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "jesse@gmail.com"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2022-11-16 00:18:04.763958"], ["updated_at", "2022-11-16 00:18:04.763958"]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "jesse@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+Completed 500 Internal Server Error in 270ms (ActiveRecord: 5.1ms | Allocations: 6697)
+
+
+
+ActionController::UrlGenerationError - No route matches {:action=>"show", :controller=>"users"}, missing required keys: [:id]:
+  app/controllers/users_controller.rb:11:in `create'
+
+Started POST "/__better_errors/dc9c67de750f78f6/variables" for ::1 at 2022-11-15 16:18:05 -0800
+Started POST "/users" for ::1 at 2022-11-15 16:18:26 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"jesse@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jesse@gmail.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+Completed 422 Unprocessable Entity in 327ms (ActiveRecord: 11.7ms | Allocations: 9672)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Email has already been taken:
+  app/models/user.rb:31:in `reset_session_token'
+  app/models/user.rb:36:in `ensure_session_token'
+  app/controllers/users_controller.rb:9:in `create'
+
+Started POST "/__better_errors/31761f278d06bdcf/variables" for ::1 at 2022-11-15 16:18:27 -0800
+Started GET "/users/new" for ::1 at 2022-11-15 16:18:35 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2273)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.4ms | Allocations: 2806)
+
+
+Started POST "/users" for ::1 at 2022-11-15 16:18:39 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"dvadv", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "dvadv"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+Completed 422 Unprocessable Entity in 324ms (ActiveRecord: 1.3ms | Allocations: 4515)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Password is too short (minimum is 6 characters):
+  app/models/user.rb:31:in `reset_session_token'
+  app/models/user.rb:36:in `ensure_session_token'
+  app/controllers/users_controller.rb:9:in `create'
+
+Started POST "/__better_errors/24a576730f7b22f7/variables" for ::1 at 2022-11-15 16:18:40 -0800
+Started POST "/users" for ::1 at 2022-11-15 16:18:44 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"dvadv", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "dvadv"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "dvadv"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2022-11-16 00:18:44.793655"], ["updated_at", "2022-11-16 00:18:44.793655"]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "dvadv"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 328ms (ActiveRecord: 4.4ms | Allocations: 5891)
+
+
+Started GET "/users" for ::1 at 2022-11-15 16:18:44 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users/new" for ::1 at 2022-11-15 16:19:04 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2365)
+Completed 200 OK in 19ms (Views: 7.0ms | ActiveRecord: 4.4ms | Allocations: 5698)
+
+
+Started GET "/users/new" for ::1 at 2022-11-15 16:20:29 -0800
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2357)
+Completed 200 OK in 16ms (Views: 6.4ms | ActiveRecord: 3.8ms | Allocations: 5670)
+
+
+Started POST "/users" for ::1 at 2022-11-15 16:20:41 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"saulgoodman", "password"=>"[FILTERED]"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "saulgoodman"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "saulgoodman"], ["password_digest", "[FILTERED]"], ["session_token", "[FILTERED]"], ["created_at", "2022-11-16 00:20:41.656328"], ["updated_at", "2022-11-16 00:20:41.656328"]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "saulgoodman"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23:in `generate_unique_session_token'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "saulgoodman"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."session_token" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["session_token", "[FILTERED]"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "[FILTERED]"], ["updated_at", "2022-11-16 00:20:41.671586"], ["id", 4]]
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:31:in `reset_session_token'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1613)
+Completed 200 OK in 312ms (Views: 4.6ms | ActiveRecord: 7.3ms | Allocations: 11806)
+
+
